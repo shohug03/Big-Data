@@ -48,12 +48,6 @@ str(mydata_1)
 mydata_1=mydata_1[sample(nrow(mydata_1)),]
 head(mydata_1)
 
-#-------------------------------------------------------------------------------------
-
-#Hypothesis testing
-
-#-------------------------------------------------------------------------------------
-
 #visualisation
 #barplot (frequency of the loan that is charged off and paid in full)
 class(MIS_status)
