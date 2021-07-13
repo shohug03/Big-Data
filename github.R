@@ -1,6 +1,6 @@
 getwd()
-setwd("C:/Users/morshad/Desktop/Project")
-my_data=read.csv("SBAnational.csv", header=T)
+setwd("INSERT YOUR FILE PATH HERE")
+my_data=read.csv("SBADATA.csv", header=T)
 
 LoanNo=my_data$LoanNr_ChkDgt
 Name=my_data$Name
